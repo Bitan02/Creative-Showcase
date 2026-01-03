@@ -2,6 +2,10 @@
 
 An Instagram-like image sharing web application built with the MERN stack. Share your art and preserve your memories.
 
+##🚀 Deployment
+
+https://artist-image-vault-client-2vc42tyw1-bitan-karaks-projects.vercel.app/
+
 ## Tech Stack
 
 ### Frontend
@@ -62,18 +66,18 @@ npm install
 Create a `.env` file in the `server` directory:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/creative-showcase
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
-CLOUDINARY_API_KEY=your-cloudinary-api-key
-CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-PORT=5000
+MONGO_URI
+JWT_SECRET
+CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
+PORT
 ```
 
 **Important:** Replace the placeholder values:
-- `MONGO_URI`: Your MongoDB connection string (use MongoDB Atlas connection string if using cloud)
+- `MONGO_URI`: MongoDB connection string (MongoDB Atlas connection string if using cloud)
 - `JWT_SECRET`: A random secret string for JWT token signing
-- `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`: Get these from your Cloudinary dashboard
+- `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`: Get these from Cloudinary dashboard
 
 ### 3. Frontend Setup
 
@@ -92,7 +96,7 @@ npm install
 (Optional) Create a `.env` file in the `client` directory if you want to customize the API URL:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL
 ```
 
 ### 4. Running the Application
@@ -111,7 +115,7 @@ For development with auto-reload:
 npm run dev
 ```
 
-The server will run on `http://localhost:5000`
+The server will run on 
 
 #### Start the Frontend Development Server
 
@@ -121,7 +125,7 @@ From the `client` directory:
 npm run dev
 ```
 
-The frontend will run on `http://localhost:3000`
+The frontend will run on
 
 ## Project Structure
 
@@ -180,13 +184,13 @@ root/
 ### Server (.env)
 - `MONGO_URI` - MongoDB connection string
 - `JWT_SECRET` - Secret key for JWT token signing
-- `CLOUDINARY_CLOUD_NAME` - Your Cloudinary cloud name
-- `CLOUDINARY_API_KEY` - Your Cloudinary API key
-- `CLOUDINARY_API_SECRET` - Your Cloudinary API secret
+- `CLOUDINARY_CLOUD_NAME` - Cloudinary cloud name
+- `CLOUDINARY_API_KEY` - Cloudinary API key
+- `CLOUDINARY_API_SECRET` - Cloudinary API secret
 - `PORT` - Server port (default: 5000)
 
 ### Client (.env) - Optional
-- `VITE_API_URL` - Backend API URL (default: http://localhost:5000/api)
+- `VITE_API_URL` - Backend API URL 
 
 ## Notes
 
@@ -206,4 +210,5 @@ root/
 ## License
 
 ISC
+
 
