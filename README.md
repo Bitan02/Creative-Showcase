@@ -2,7 +2,7 @@
 
 An Instagram-like image sharing web application built with the MERN stack. Share your art and preserve your memories.
 
-##🚀 Deployment
+## 🚀 Deployment
 
 https://artist-image-vault-client-2vc42tyw1-bitan-karaks-projects.vercel.app/
 
@@ -210,5 +210,6 @@ root/
 ## License
 
 ISC
+
 
 
